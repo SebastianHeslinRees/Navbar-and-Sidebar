@@ -295,9 +295,9 @@ navbar2 = html.Div(
         dbc.Nav([
                 dbc.NavLink(
                     [
-                        dbc.NavLink("Home", href="/", active="exact"),
-                        dbc.NavLink("Page 1", href="/page-1", active="exact"),
-                        dbc.NavLink("Page 2", href="/page-2", active="exact"),
+                        dbc.NavLink("Consumer and household Home", href="/", active="exact"),
+                        dbc.NavLink("Consumer and household Graph 1", href="/page-1", active="exact"),
+                        dbc.NavLink("Consumer and household Graph 2", href="/page-2", active="exact"),
                     ])
         ],
             vertical=True,
